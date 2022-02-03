@@ -14,7 +14,7 @@ int main () {
 
 	std::cout << "Try find process CS:GO..." << std::endl;
 
-	HWND hwnd = FindWindowA (NULL, "Counter-Strike: Global Offensive");
+	HWND hwnd = FindWindowA (NULL, "Counter-Strike: Global Offensive - Direct3D 9");
 
 	if (!hwnd) {
 		std::cout << "Can't find CS:GO window. Please make sure csgo is running." << std::endl;
